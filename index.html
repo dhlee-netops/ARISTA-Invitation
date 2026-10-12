@@ -8,9 +8,67 @@
 <meta property="og:description" content="클릭해서 참가 등록을 해주세요.">
 <meta property="og:image" content="https://dhlee-netops.github.io/ARISTA-Invitation/2026%20ARISTA-Day_eDM_v5.png">
 <meta property="og:url" content="https://dhlee-netops.github.io/ARISTA-Invitation/">
-<script>location.replace("https://form.naver.com/response/9t5iQB4aNst");</script>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f6f6f6;
+    font-family: sans-serif;
+  }
+
+  .invite-wrap {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .invite-wrap img {
+    display: block;
+    width: min(100vw, 1200px);
+    height: auto;
+  }
+
+  .invite-button {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+
+  .invite-button a {
+    display: inline-block;
+    padding: 16px 44px;
+    background: rgba(0, 0, 0, 0.65);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background 0.2s ease;
+  }
+
+  .invite-button a:hover {
+    background: rgba(0, 0, 0, 0.8);
+  }
+</style>
 </head>
 <body>
-<a href="https://form.naver.com/response/9t5iQB4aNst">참가 등록</a>
+<div class="invite-wrap">
+  <img src="https://dhlee-netops.github.io/ARISTA-Invitation/2026%20ARISTA-Day_eDM_v5.png" alt="아리스타 낮술데이 초대장">
+  <div class="invite-button">
+    <a href="https://form.naver.com/response/9t5iQB4aNst" target="_blank" rel="noopener noreferrer">참석하기</a>
+  </div>
+</div>
 </body>
 </html>
